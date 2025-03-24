@@ -39,8 +39,8 @@ cd RAG-project
 ### 2. Create a virtual environment and install dependencies
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate  # or .venv\Scripts\activate on Windows
+python -m venv RAG_Env
+source RAG_Env/bin/activate  # or .venv\Scripts\activate on Windows
 pip install -r requirements.txt
 ```
 
