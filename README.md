@@ -85,7 +85,7 @@ streamlit run app.py
 ## 🧩 How it works
 
 1. **Index Creation** (via `build_vectorstore.py`):
-   - Each book is split into semantic **chunks** (approx. 1000 tokens each).
+   - Each book is split into semantic **chunks** (2000 character each).
    - Chunks are encoded into vectors using a **sentence-transformers** model.
    - All vectors are stored in a **FAISS** index along with their source metadata.
 
