@@ -47,7 +47,7 @@ def get_qa_chain(vectorstore):
     )
     return qa_chain
 
-# --- UI avec Streamlit ---
+#interface avec streamlit
 st.set_page_config(page_title="Book Q&A RAG", layout="wide")
 st.title("RAG sur Harry Potter & Hunger Games")
 
