@@ -1,6 +1,7 @@
 streamlit
 langchain>=0.1.0
 langchain-community
+markdown
 faiss-cpu
 sentence-transformers
 huggingface_hub
