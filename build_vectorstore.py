@@ -50,9 +50,9 @@ def split_documents(documents):
 def main():
     print("📖 Chargement des documents depuis", BOOKS_DIR)
     documents = load_documents(BOOKS_DIR)
-    print(f"➡️ {len(documents)} documents chargés")
+    print(f"{len(documents)} documents chargés")
 
-    print("🔪 Découpage en chunks...")
+    print("Découpage en chunks...")
     split_docs = split_documents(documents)
     print(f"➡️ {len(split_docs)} chunks générés")
 
@@ -60,7 +60,7 @@ def main():
     embeddings = HuggingFaceEmbeddings(model_name=EMBEDDING_MODEL)
     db = FAISS.from_documents(split_docs, embeddings)
 
-    print("💾 Sauvegarde de l'index FAISS dans", INDEX_DIR)
+    print("Sauvegarde de l'index FAISS dans", INDEX_DIR)
     db.save_local(INDEX_DIR)
     print("✅ Indexation terminée !")
 
