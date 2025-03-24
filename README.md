@@ -32,7 +32,7 @@ This project is a Streamlit-based interactive application that allows you to ask
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/book-rag-project.git](https://github.com/AnassElMontassir/RAG-project.git
+git clone https://github.com/AnassElMontassir/RAG-project.git
 cd RAG-project
 ```
 
