@@ -40,7 +40,7 @@ cd RAG-project
 
 ```bash
 python -m venv RAG_Env
-source RAG_Env/bin/activate  # or .venv\Scripts\activate on Windows
+source RAG_Env/bin/activate  # or RAG_Env\Scripts\activate on Windows
 pip install -r requirements.txt
 ```
 
