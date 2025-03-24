@@ -62,7 +62,7 @@ set HUGGINGFACEHUB_API_TOKEN=your_token_here     # Windows CMD
 
 ## 🛠️ Build the FAISS index
 
-Run this **once** after placing your book files:
+Run this first before running the application:
 
 ```bash
 python build_vectorstore.py
@@ -103,16 +103,21 @@ This architecture ensures factual answers grounded in the content of the uploade
 
 ## 🧪 Example Questions
 
-- What time did the Hogwarts Express leave?
-- Why did Hermione lock herself in the bathroom?
-- Who is older between Harry and Katniss?
-- What do Harry Potter's and Katniss' fathers have in common?
+**Single-book questions:**
+- What time did the "Poudlard Express" leave? *(Harry Potter 1)*
+- Why did Hermione lock herself in the bathroom? *(Harry Potter 1)*
+
+**Cross-book questions:**
+- Who is older between Harry and Katniss? *(Harry Potter & Hunger Games)*
+- What do Harry Potter's and Katniss' fathers have in common? *(Harry Potter & Hunger Games)*
+
 
 ---
 
 ## 🧠 Tech Stack
 
 - [LangChain](https://www.langchain.com/)
+- Embedding Model: [`sentence-transformers/all-MiniLM-L12-v2`](https://huggingface.co/sentence-transformers/all-MiniLM-L12-v2)
 - [FAISS](https://github.com/facebookresearch/faiss)
 - [Hugging Face Hub](https://huggingface.co/)
 - [Streamlit](https://streamlit.io/)
