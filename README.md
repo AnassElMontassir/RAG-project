@@ -117,10 +117,10 @@ This architecture ensures factual answers grounded in the content of the uploade
 ## 🧠 Tech Stack
 
 - [LangChain](https://www.langchain.com/)
-- Embedding Model: [`sentence-transformers/all-MiniLM-L12-v2`](https://huggingface.co/sentence-transformers/all-MiniLM-L12-v2)
 - [FAISS](https://github.com/facebookresearch/faiss)
 - [Hugging Face Hub](https://huggingface.co/)
 - [Streamlit](https://streamlit.io/)
+- Embedding Model: [`sentence-transformers/all-MiniLM-L12-v2`](https://huggingface.co/sentence-transformers/all-MiniLM-L12-v2)
 - LLM: `mistralai/Mistral-7B-Instruct-v0.1`
 
 ---
