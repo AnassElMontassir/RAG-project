@@ -7,4 +7,3 @@ transformers
 torch
 unstructured
 pdfminer.six
-glob
